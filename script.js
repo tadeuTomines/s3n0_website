@@ -3,6 +3,6 @@ window.onload = () => {
     const lancamentos = document.getElementById('lancamentos');
     releases.addEventListener("click", () => {
         window.location
-        alert('Bora!');
+        alert('Bora!');//
     }); */
 }
