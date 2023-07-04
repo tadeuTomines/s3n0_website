@@ -127,7 +127,7 @@ main {
     flex-direction: column;
     text-align: center;
     align-items: center;
-   /*  border: 2px solid red; */
+    /*  border: 2px solid red; */
     height: 100vh;
     border-bottom: 2px solid white;
     padding-top: 15%;
@@ -138,7 +138,7 @@ main {
     color: white;
     margin-top: 10%;
     font-size: 500%;
-  /*   border: 1px solid red; */
+    /*   border: 1px solid red; */
     font-family: 'Dancing Script', cursive;
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Yusei Magic', sans-serif; */
@@ -154,7 +154,7 @@ main {
     margin-top: 2%;
     /* padding-top: 18%; */
     justify-content: space-evenly;
-  /*   border: 2px solid red; */
+    /*   border: 2px solid red; */
     cursor: pointer;
     /* height: 90vh; */
     z-index: 0;
@@ -285,22 +285,40 @@ h5 {
 }
 
 
-
+#spotifyicon {
+    font-size: 5rem;
+}
 
 #spotifyicon:hover {
     color: rgb(30, 215, 96);
+}
+
+#youtubeicon {
+    font-size: 5rem;
 }
 
 #youtubeicon:hover {
     color: rgb(255, 0, 0);
 }
 
+#applemusicicon {
+    font-size: 5rem;
+}
+
 #applemusicicon:hover {
     color: rgb(85, 85, 85);
 }
 
+#soundcloudicon {
+    font-size: 5rem;
+}
+
 #soundcloudicon:hover {
     color: rgb(255, 119, 0);
+}
+
+#instagramicon {
+    font-size: 5rem;
 }
 
 #instagramicon:hover {
@@ -369,6 +387,8 @@ footer {
     /* border: 1px solid red; */
 }
 
+
+
 #direitos-reservados {
     align-items: center;
     color: white;
@@ -381,6 +401,7 @@ footer {
     align-items: center;
     color: white;
     display: flex;
+    font-family: 'Dancing Script', cursive;
 
 }
 
@@ -417,11 +438,91 @@ footer {
         display: block;
     }
 
-    #platforms {
-        width: 100%;
-        margin-top: 50%;
-
+    #mensagems3n0 {
+        color: white;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 240%;
+        /*   border: 1px solid red; */
+        font-family: 'Dancing Script', cursive;
     }
+
+    #platforms {
+        width: 100vw;
+        margin-top: 50%;
+        margin-left: 2%;
+        margin-right: 5%;
+        border: 1px solid red;
+    }
+
+    #spotifyicon {
+        font-size: 3rem;
+    }
+    #spotifyicon2 {
+        font-size: 1.5rem;
+    }
+
+
+    #spotifyicon:hover {
+        color: rgb(30, 215, 96);
+    }
+
+    #youtubeicon {
+        font-size: 3rem;
+    }
+
+    #youtubeicon2 {
+        font-size: 1.5rem;
+    }
+
+
+    #youtubeicon:hover {
+        color: rgb(255, 0, 0);
+    }
+
+    #applemusicicon {
+        font-size: 3rem;
+    }
+
+    #applemusicicon2 {
+        font-size: 1.5rem;
+    }
+
+
+    #applemusicicon:hover {
+        color: rgb(85, 85, 85);
+    }
+
+    #soundcloudicon {
+        font-size: 3rem;
+    }
+
+    #soundcloudicon2 {
+        font-size: 1.5rem;
+    }
+
+    #soundcloudicon:hover {
+        color: rgb(255, 119, 0);
+    }
+
+    #instagramicon {
+        font-size: 3rem;
+    }
+
+    #instagramicon2 {
+        font-size: 1.5rem;
+    }
+
+    #instagramicon:hover {
+
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        /* Also define standard property for compatibility */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 
     #biopage {
         background-image: none;
@@ -464,16 +565,6 @@ footer {
         padding-bottom: 2%;
     }
 
-    .flex-box {
-        margin-top: 5%;
-        padding: 5%;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-    }
-
     .card {
         color: white;
         text-align: center;
@@ -489,6 +580,72 @@ footer {
     h4 {
         font-weight: lighter;
         font-size: 100%;
+    }
+
+    footer {
+        height: 10vh;
+        width: 100%;
+        border-top: 1px solid white;
+        position: relative;
+        background-color: black;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 100%;
+        /* border: 1px solid red; */
+
+    }
+
+    #links-footer {
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        width: 30vw;
+        /* border: 1px solid red; */
+        
+
+    }
+
+    .icons-footer {
+        font-size: 1rem;
+        /* border: 1px solid red; */
+    }
+
+    h5 {
+        margin-left: 5%;
+        text-align: center;
+        width: 30vw;
+        font-size: 100%;
+    }
+
+    #direitos-reservados {
+        align-items: center;
+        text-align: center;
+        color: white;
+        display: flex;
+        width: 30vw;
+
+        /* border: 1px solid red; */
+    }
+
+    #msg {
+        align-items: center;
+        text-align: center;
+        color: white;
+        display: flex;
+        width: 30vw;
+        margin-right: 5%;
+        /* border: 1px solid red; */
+
+
     }
 
 
