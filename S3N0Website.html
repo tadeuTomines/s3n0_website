@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&family=Yusei+Magic&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,9 +28,8 @@
                     <img id="logo" src="/MeuRepositorio/Portifólio/S3N0Website/Imagens/S3NO_Symbol_White.png" alt="Minha logo">
                     <li><a href="#" id="home">Home</a></li>
                     <li><a href="#biopage" id="bio">Bio</a></li>
-                    <!-- <button class="btn" id="release1">Releases</button> -->
                     <li><a href="#lancamentos" id="releases">Releases</a></li>
-                    <!-- <li><a href="#" id="plataformas">Platforms</a></li> -->
+                    <li><a href="#formulario" id="contato">Contato</a></li>
                     <!-- <li><a href="#">Contact</a></li>
                   <li><a href="#">Contact</a></li> -->
                 </ul>
@@ -34,12 +37,16 @@
         </nav>
     </header>
     <main id="main">
+        <div id="mensagems3n0">"Faça da música a essência da vida"</div>
         <section id="platforms">
             <a href="https://open.spotify.com/intl-pt/artist/5R1yd5y1Aap6x2iFiXjPj1" target="_blank">
                 <i href="" style="font-size: 5rem" class="bi bi-spotify icons" id="spotifyicon"></i>
             </a>
             <a href="https://music.apple.com/br/artist/s3n0/1505832247" target="_blank">
                 <i style="font-size: 5rem" class="bi bi-apple icons" id="applemusicicon"></i>
+            </a>
+            <a href="https://instagram.com/s3n0music" target="_blank">
+                <i style="font-size: 5rem" class="fa fa-instagram icons" aria-hidden="true" id="instagramicon"></i>
             </a>
             <a href="https://www.youtube.com/channel/UCSYOtbEYaocHqC7mDwAXGHw" target="blank">
                 <i style="font-size: 5rem" class="bi bi-youtube icons" id="youtubeicon"></i>
@@ -101,10 +108,11 @@
         </div>
     </section>
     <section class="releases" id="lancamentos">
+        <h1>Releases</h1>
         <div class="flex-box">
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/track/1JI5SuVVmXWCGrJ8HiicxF?si=99013869233b4daf" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273b334b108e95e638386adabe8" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273b334b108e95e638386adabe8" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Chamunda</b></h4>
@@ -112,7 +120,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/track/56jKEFgeuq3vdlALzDYAl3?si=146fcd57b4c944d1" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273058f660ec46341437f70da12" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273058f660ec46341437f70da12" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Soul Saxy</b></h4>
@@ -120,7 +128,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/track/0DrNPM4aDlGAIZDzrLKKm2?si=9e132d3f3e0d4cae" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b2737c7b0db3831d7586ee5e0dbe" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b2737c7b0db3831d7586ee5e0dbe" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Edelerzi (Remix)</b></h4>
@@ -128,7 +136,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/album/6vlCr5b7hUYXG9tB4Zmnbw?si=K4J8b9B8T8SNrPtrZm3e0g" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b2739306f279e0cfdac32fa94b7b" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b2739306f279e0cfdac32fa94b7b" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Igal</b></h4>
@@ -136,7 +144,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/album/3jDGiF3hNiKCrR2fitmqTI?si=a-QHwoZfT7CXpeHo2EaC-Q" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b27385a3c9d6e3b06313b272d3c1" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b27385a3c9d6e3b06313b272d3c1" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Mahadeva</b></h4>
@@ -146,7 +154,7 @@
         <div class="flex-box">
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/album/7cIODIvTiq5sWNjLt2x9xn?si=XRaq1IA1RgmwIDRu-ceP5A" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273a021ba9f4447440a09d89dfb" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273a021ba9f4447440a09d89dfb" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Sukanya</b></h4>
@@ -154,7 +162,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/album/6ha3muIztm0VavzhyEqKtV?si=mPqKgVNpTSKPsqBqZHdE_Q" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273b9010bb6123fe7a8b31e1564" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273b9010bb6123fe7a8b31e1564" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Malikah</b></h4>
@@ -162,7 +170,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/album/3bmhZ6TDXog4967MA29AlP?si=IAfch4LpTa-Cg46BHYkRcw" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273b39ca81bc93c63a96da9a9ae" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273b39ca81bc93c63a96da9a9ae" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Tribal Soul</b></h4>
@@ -170,7 +178,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/album/6POjkorUF5fPeDH4pg5qO7?si=P6zRzIKLQEGTmCcBpQL5Rw" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273039e4f0e78aa2baf5aa21b0b" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273039e4f0e78aa2baf5aa21b0b" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Shiva Lingam (Remix)</b></h4>
@@ -178,7 +186,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/album/3YVt4clIaZMv7qDIkS6N6X?si=PHgdnhBUS7CpxYOD6kMUPQ" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b27376eadf982708fa157c650d99" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b27376eadf982708fa157c650d99" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Hanuman</b></h4>
@@ -188,7 +196,7 @@
         <div class="flex-box">
             <div class="card">
                 <a href="https://open.spotify.com/album/0jUrDzsxwqjQNhUbYs7xbf?si=vsSQpoi6Qfi657BeAKomeg" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273d7dd0e4b814914585a55b72e" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273d7dd0e4b814914585a55b72e" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Pharaoh</b></h4>
@@ -196,7 +204,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/album/2Zb9CIm8ywl6cwsjlLaL3g?si=_CQ9-5PHStOvTc1WlkGqyQ" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273e834780eeed54da113619a7d" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273e834780eeed54da113619a7d" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Surya</b></h4>
@@ -204,7 +212,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/album/0guyiEEONZYZKA93QiRjcm?si=ZbcUlbe0SkKQ_nT4xeLy0A" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b273d4d878b3bf99a61b47f9d435" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b273d4d878b3bf99a61b47f9d435" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Vandaha (Remix)</b></h4>
@@ -212,7 +220,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/album/2YCQejIgFV1jPJ9iY1p5Bi?si=xRa5GVR7TvuY2dA4IlQN-A" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b2732dc73dce2530fa60ece1d44b" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b2732dc73dce2530fa60ece1d44b" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Existence</b></h4>
@@ -220,7 +228,7 @@
             </div>
             <div class="card">
                 <a href="https://open.spotify.com/intl-pt/album/0c0nNSIJLQTjoBsIT8JjUX?si=uqHlnxKcSoqYNdAiO-NmOg" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b2732577d2b035dd3a44ed57927c" alt="Avatar" style="width:100%">
+                    <img class="images" src="https://i.scdn.co/image/ab67616d0000b2732577d2b035dd3a44ed57927c" alt="Avatar" style="width:100%">
                 </a>
                 <div class="container">
                     <h4><b>Litha (Remix)</b></h4>
@@ -228,12 +236,42 @@
             </div>
         </div>
     </section>
+    <section id="formulario">
+        <form action="" method="get">
+            <p>Deixe aqui sua mensagem:</p>
+            <input type="email" placeholder="Email">
+            <textarea name="" id="text-box" cols="30" rows="10" placeholder="Escreva livremente"></textarea>
+            <button class="btn">Enviar</button>
+            <div class="box">
+            </div>
+            <div></div>
+        </form>
+
+    </section>
 </body>
 <footer>
-    <div class="footer">
-
+    <div id="footer">
+        <div>
+            <div id="links-footer"><a href="https://open.spotify.com/intl-pt/artist/5R1yd5y1Aap6x2iFiXjPj1" target="_blank">
+                    <i href="" style="font-size: 2rem" class="bi bi-spotify icons" id="spotifyicon"></i>
+                </a>
+                <a href="https://music.apple.com/br/artist/s3n0/1505832247" target="_blank">
+                    <i style="font-size: 2rem" class="bi bi-apple icons" id="applemusicicon"></i>
+                </a>
+                <a href="https://instagram.com/s3n0music" target="_blank">
+                    <i style="font-size: 2rem" class="fa fa-instagram icons" aria-hidden="true" id="instagramicon"></i>
+                    <a href="https://www.youtube.com/channel/UCSYOtbEYaocHqC7mDwAXGHw" target="blank">
+                        <i style="font-size: 2rem" class="bi bi-youtube icons" id="youtubeicon"></i>
+                    </a>
+                    <a href="https://soundcloud.com/s3n0" target="blank">
+                        <i style="font-size: 2rem" class="fa fa-soundcloud icons" id="soundcloudicon"></i>
+                    </a>
+            </div>
+            <h5>Contato: produtor.s3n0@gmail.com</h5>
+        </div>
+        <div id="direitos-reservados">© 2024 S3N0. All Rights Reserved.</div>
+        <div id="msg">"Faça da música a essência da vida"</div>
     </div>
-
 </footer>
 
 </html>
