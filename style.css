@@ -453,14 +453,14 @@ footer {
         margin-top: 50%;
         margin-left: 2%;
         margin-right: 2%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     #spotifyicon {
         font-size: 3rem;
     }
     #spotifyicon2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -473,7 +473,7 @@ footer {
     }
 
     #youtubeicon2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -486,7 +486,7 @@ footer {
     }
 
     #applemusicicon2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -499,7 +499,7 @@ footer {
     }
 
     #soundcloudicon2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #soundcloudicon:hover {
@@ -511,7 +511,7 @@ footer {
     }
 
     #instagramicon2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #instagramicon:hover {
